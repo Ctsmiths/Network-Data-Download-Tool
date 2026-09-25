@@ -1,0 +1,11 @@
+## v2.20 - 2026-09-24
+- Standard admin keys, the same in every Belimo tool: F12 asks for the admin password and then shows and unprotects every sheet; F11 puts every sheet back exactly as it was.
+- One password now protects every sheet in every tool.
+- Import IP Address's now reads the first sheet of the file you choose, so a .csv imports as well as a file made by Export. It used to require a sheet named Sheet1.
+- Corrected a spelling mistake on the main sheet.
+- You are now told when a newer version exists: when you open the tool, a message offers to install it (Yes downloads and installs it, No carries on). You are asked only once for each new version; Check for Updates on the About screen is always there.
+
+## v2.19 - 2026-09-22
+- Added GitHub-based auto-update: the tool now checks for new versions on open and lets you know when one's available.
+- Added a "Check for Updates" button and a "Download Fresh Copy" button to the About screen, so you can check manually or grab a known-good copy any time.
+- Updates now save through a normal Windows Save As dialog - you pick where the new version goes, just like saving any other file. Your current copy is never touched or deleted.
